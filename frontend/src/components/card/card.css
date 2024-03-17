@@ -1,0 +1,48 @@
+.card_header {
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card_body {
+    padding: 0 5px;
+}
+
+.card_footer {
+    padding: 0 5px;
+}
+
+.card_img {
+    width: 230px;
+    background-color: black;
+}
+
+.card_title_place {
+    margin: 10px 0;
+}
+
+.card_title
+{
+    font-weight: bold;
+    font-size: large;
+}
+
+.card_price_place {
+    margin: 10px 0;
+}
+
+.card_add_btn {
+    border: none;
+    border-radius: 7px;
+    padding: 3px 73px;
+    background-color: #ffbc0d;
+    /* font-family: "Merienda", cursive; */
+    font: inherit;
+    font-weight: 600;
+    transition: all .12s ease-out;
+}
+
+.card_add_btn:hover {
+    background-color: #ffc635;
+}
