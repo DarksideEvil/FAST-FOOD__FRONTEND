@@ -1,0 +1,29 @@
+.about_header {
+    text-align: center;
+}
+
+.about_title {
+    text-transform: capitalize;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+.about_img_place {
+    text-align: center;
+}
+
+.about_single_paragraph_place {
+    margin: 100px 0;
+}
+
+.about_single_title {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.about_row {
+    display: flex;
+    justify-content: center;
+}

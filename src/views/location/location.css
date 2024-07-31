@@ -1,0 +1,53 @@
+.loc_child_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.loc_search_place {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.loc_search_inp {
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 70%;
+    padding: 10px;
+}
+
+.loc_search_btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffbc0d;
+    border: none;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+.loc_search_inp::placeholder {
+    font-size: xx-large;
+    color: black;
+    font-weight: 500;
+}
+
+.loc_search_inp:focus::placeholder {
+    color: #ffbc0d;
+}
+
+/* Style for input with bottom line */
+.loc_search_inp {
+    border: none;
+    /* Remove default border */
+    border-bottom: 1px solid #000;
+    /* Add bottom border */
+    outline: none;
+    /* Remove focus outline */
+}
+
+/* Optional: Change border color and style */
+.loc_search_inp:focus {
+    border-bottom-color: #ffbc0d;
+    /* Change border color on focus */
+    /* border-bottom-style: dashed; Change border style on focus */
+}

@@ -1,0 +1,49 @@
+.card_wrapper
+{
+    width: 600px;
+    margin: 70px 0;
+}
+
+.aboutcard_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.aboutcard_btn {
+    text-transform: capitalize;
+    min-height: 3rem;
+    min-width: 9rem;
+    line-height: 1.25rem;
+    background-color: #ffbc0d;
+    border-radius: 4px;
+    padding: 0.8125rem 1.5625rem;
+    display: inline-block;
+    -webkit-box-align: center;
+    border: none;
+    color: #292929;
+    text-decoration: none;
+    text-align: center;
+}
+
+.aboutcard_title_place {
+    margin: 30px 0;
+}
+
+.aboutcard_title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.aboutcard_desc_place {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1400px) {
+    .card_wrapper {
+        width: 100% !important;
+    }
+}

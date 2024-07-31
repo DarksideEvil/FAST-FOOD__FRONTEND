@@ -1,0 +1,15 @@
+.freq_ques_title {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+    .freq_ques_title {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 2pc;
+    }
+}

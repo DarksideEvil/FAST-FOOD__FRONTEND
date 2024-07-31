@@ -1,0 +1,32 @@
+.card_x_wrapper
+{
+    margin: 70px 0;
+}
+
+.reward_x_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.reward_x_title_place {
+    margin: 30px 0;
+}
+
+.reward_x_title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.reward_x_desc_place {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    /* .card_x_wrapper {
+        width: 600px;
+    } */
+}

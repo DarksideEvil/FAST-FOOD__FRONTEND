@@ -1,0 +1,39 @@
+.rew_header {
+    margin-bottom: 120px;
+}
+
+.rew_header_txt {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rew_header_desc {
+    margin-bottom: 25px;
+}
+
+.rew_header_desc2 {
+    font-size: small;
+}
+
+.rew_after_down_header {
+    font-weight: 800;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+
+.rew_after_down_desc {
+    font-weight: 400;
+}
+
+.frequent_question_wrapper {
+    margin-top: 25px;
+}
+
+.frequent_question_header {
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}

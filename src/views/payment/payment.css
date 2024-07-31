@@ -1,0 +1,132 @@
+.payment_wrapper * {
+    font-family: Flame-Regular;
+    font-weight: bolder;
+}
+
+.payment_custom_container {
+    padding: 0 350px;
+}
+
+.payment_back_wrapper {
+    left: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.payment_header {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.payment_methods {
+    margin: 30px 0;
+}
+
+.pay_method_select {
+    width: 100%;
+}
+
+.payment_summary {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    margin: 20px 0;
+    padding: 10px 30px;
+}
+
+.payment_button_place {
+    text-align: center;
+}
+
+.paypal {
+    width: 80%;
+    border: none;
+    border-radius: 28px;
+    background: #ffc439;
+    padding: 15px 0;
+}
+
+.in_cash {
+    width: 70%;
+    border: none;
+    border-radius: 40px;
+    background: rgb(127, 211, 0);
+    padding: 0px;
+}
+
+.credit_card {
+    width: 70%;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(0, 140, 255);
+    padding: 0px;
+}
+
+.paypal:hover,
+.in_cash:hover,
+.credit_card:hover {
+    filter: brightness(0.95);
+    overflow: inherit;
+}
+
+.payment_logo {
+    width: 15%;
+}
+
+.payment_logo_selection {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.cart_promocode {
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 30px 0;
+    backdrop-filter: blur(5px);
+}
+
+.promo_wrap {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.promocode_inp {
+    width: 100%;
+    padding: 5px 22px 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, padding 0.3s ease;
+    /* Add transition for smooth effect */
+}
+
+.promocode_inp:focus {
+    outline: none;
+    /* Remove default focus outline */
+    box-shadow: 0 0 5px red;
+    border: none;
+    /* Apply glowing effect */
+    padding: 9px;
+    /* Adjust padding to compensate for removed border */
+}
+
+.clear_button {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 7px;
+    /* Adjust the negative margin to position the button inside the input */
+}
+
+@media (max-width: 1000px) {
+    .payment_custom_container {
+        padding: 30px;
+    }
+}
